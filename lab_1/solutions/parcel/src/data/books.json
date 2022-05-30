@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "The Little Prince",
+    "author": "Antonie de Saint-Exupéry",
+    "plot": "The story follows a young prince who visits various planets in space, including Earth, and addresses themes of loneliness, friendship, love, and loss. Despite its style as a children's book, The Little Prince makes observations about life, adults and human nature.",
+    "link": "https://en.wikipedia.org/wiki/The_Little_Prince",
+    "imageName": "Littleprince.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Metamorphosis",
+    "author": "Franz Kafka",
+    "plot": "Metamorphosis tells the story of salesman Gregor Samsa, who wakes one morning to find himself inexplicably transformed into a huge insect and subsequently struggles to adjust to this new condition.",
+    "link": "https://en.wikipedia.org/wiki/The_Metamorphosis",
+    "imageName": "Metamorphosis.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "plot": "A young girl named Alice falls through a rabbit hole into a fantasy world of anthropomorphic creatures.",
+    "link": "https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland",
+    "imageName": "Alicesadventuresinwonderland.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Blindness",
+    "author": "José Saramago",
+    "plot": "Blindness is the story of an unexplained mass epidemic of blindness afflicting nearly everyone in an unnamed city, and the social breakdown that swiftly follows.",
+    "link": "https://en.wikipedia.org/wiki/Blindness_(novel)",
+    "imageName": "Blindness.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "plot": "The book tells the story of a group of farm animals who rebel against their human farmer, hoping to create a society where the animals can be equal, free, and happy.",
+    "link": "https://en.wikipedia.org/wiki/Animal_Farm",
+    "imageName": "Animal_Farm.jpg"
+  }
+]
