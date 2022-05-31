@@ -1,9 +1,8 @@
-/lab_1/solutions/create-react-app/
-/lab_1/solutions/parcel/.log/
-/lab_1/solutions/parcel/.parcel-cache/
-/lab_1/solutions/parcel/node_modules/
-/lab_1/solutions/parcel/package-lock.json
-/lab_1/solutions/parcel/dist/*.js
-/lab_1/solutions/parcel/dist/*.map
-/lab_1/solutions/parcel/dist/*.css
-/lab_1/solutions/parcel/dist/*.html
+**/create-react-app/
+**/parcel/.log/
+**/parcel/.parcel-cache/
+**/node_modules/
+**/dist/*.js
+**/dist/*.map
+**/dist/*.css
+**/dist/*.html
