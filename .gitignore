@@ -1,5 +1,5 @@
 **/create-react-app/
-**/parcel/.log/
+**/.log/
 **/parcel/.parcel-cache/
 **/node_modules/
 **/dist/*.js

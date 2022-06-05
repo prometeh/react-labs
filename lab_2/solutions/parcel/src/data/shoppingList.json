@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "milk",
+    "bought": false,
+    "edit_mode": false,
+    "archived": false,
+    "confirmation_mode": false
+  },
+  {
+    "id": 2,
+    "name": "bread",
+    "confirmation_mode": false,
+    "bought": true,
+    "edit_mode": false,
+    "archived": false
+  },
+  {
+    "id": 3,
+    "name": "egg",
+    "confirmation_mode": false,
+    "bought": false,
+    "edit_mode": false,
+    "archived": false
+  },
+  {
+    "id": 4,
+    "name": "yogurt",
+    "confirmation_mode": false,
+    "bought": false,
+    "edit_mode": false,
+    "archived": true
+  },
+  {
+    "id": 5,
+    "name": "cheese",
+    "confirmation_mode": false,
+    "bought": false,
+    "edit_mode": false,
+    "archived": false
+  }
+]
