@@ -1,7 +1,9 @@
+import Header from "./components/Header";
+
 export const App = () => {
   return (
-    <div>
-      <h1 className="bg-sky-300">Hello world!</h1>
+    <div className="bg-slate-400 min-h-screen text-slate-900">
+      <Header />
     </div>
   );
 };
