@@ -1,14 +1,14 @@
+import { useState } from "react";
 import Blogs from "../components/Blogs.jsx";
+import useFetch from "../hooks/useFetch.js";
 
-const BlogsPage = ({
-  blogs,
-  users,
-  blogsLoading,
-  usersLoading,
-  blogsError,
-  usersError,
-}) => {
+const BlogsPage = () => {
+  const [blogsUrl] = useState("http://localhost:3000/blogs");
+  const [usersUrl] = useState("http://localhost:3000/users");
+  const [blogs, blogsLoading, blogsError] = useFetch(blogsUrl);
+  const [users, usersLoading, usersError] = useFetch(usersUrl);
   const isLoading = blogsLoading && usersLoading;
+
   return (
     <div>
       {isLoading && (
