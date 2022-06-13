@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import BlogsPage from "./pages/BlogsPage";
+import BlogPage from "./pages/BlogPage";
 
 export const App = () => {
   return (
@@ -8,6 +9,7 @@ export const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<BlogsPage />} />
+        <Route path="/blogs/:id" element={<BlogPage />} />
       </Routes>
     </div>
   );
