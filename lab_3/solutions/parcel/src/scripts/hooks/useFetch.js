@@ -9,7 +9,11 @@ const useFetch = (url) => {
     fetch(url)
       .then((res) => {
         if (!res.ok) {
-          throw Error("Could not get the data from the database!");
+          throw Error(
+            "Could not get the data from the database\nwith the url: '" +
+              url +
+              "'!"
+          );
         }
 
         return res.json();
