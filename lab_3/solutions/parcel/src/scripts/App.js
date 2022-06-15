@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import BlogsPage from "./pages/BlogsPage";
 import BlogPage from "./pages/BlogPage";
+import CreatePage from "./pages/CreatePage";
 
 export const App = () => {
   return (
@@ -10,6 +11,7 @@ export const App = () => {
       <Routes>
         <Route path="/" element={<BlogsPage />} />
         <Route path="/blogs/:id" element={<BlogPage />} />
+        <Route path="/create" element={<CreatePage />} />
       </Routes>
     </div>
   );
