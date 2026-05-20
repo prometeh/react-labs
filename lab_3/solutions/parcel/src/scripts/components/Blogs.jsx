@@ -13,7 +13,7 @@ const Blogs = ({ blogs, users, blogId, visible }) => {
                 blogId={blog.id}
                 blogTitle={blog.title}
                 blogBody={blog.body}
-                blogAuthor={users.find((user) => user.id === blog.userId).name}
+                blogAuthor={users.find((user) => user.id === blog.userId)?.name || 'Unknown'}
               />
             ))}
         </div>
